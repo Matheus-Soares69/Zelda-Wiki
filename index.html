@@ -11,7 +11,7 @@
         <p>Hyrule é onde os jogos da Franquia Zelda se passam. Por mais que ainda renham jogos que se passam em outros reinos, Hyrule é o principal</p>
         <br>
         <h2>JOGOS</h2>
-        <ul>
+        <ul><!--lista não ordenada-->
             <li>The Legend Of Zelda Twilght Princess</li>
             <li>The Legend Of Zelda Breath Of The Wild</li>
             <li>The Legend Of Zelda A Link To The Past</li>
@@ -20,20 +20,24 @@
         </ul>
         <br>
         <h2>PERSONAGENS</h2>
-        <ol>
+        <ol><!--Lista ordenada-->
             <li>Zelda: A princesa de Hyrule, encarnação da deusa em Skyward Sword (Acredito que em outros jogos ela tbm seja).</li>
             <li>Link: O espadachim habilidoso em alguns jogos, em outros sendo apenas um morador de hyrule qualquer, mas sempre sendo o guerreiro que carrega a Lámina que sela a escuridão</li>
             <li>Impa: Guarda costas de Zelda em OOT</li>
         </ol>
         <br>
         <h2>CURIOSIDADES</h2>
-        <ul>
-            <li><strong>Confusão:</strong> Muita gente confunde o link com a zelda, por sempre que mostra a capa do jogo ao invés de estar a zelda esta o linl na capa</li>
-            <li><strong>Inspiração no Peter Pan:</strong> A clássica roupa verde de Link, suas orelhas pontudas e até mesmo sua companheira fada foram fortemente inspiradas no visual clássico do Peter Pan.</li>
-            <li><strong>Inspiração na vida real:</strong> A ideia de explorar cavernas e florestas veio da infância de Shigeru Miyamoto, que costumava explorar a natureza ao redor de sua casa em Kyoto, no Japão.</li>
-        </ul>
+        <dl><!--Lista de definição-->
+            <dt><strong>Confusão:</strong></dt>
+                <dd>Muita gente confunde o link com a zelda, por sempre que mostra a capa do jogo ao invés de estar a zelda esta o linl na capa</dd>
+            <dt><strong>Inspiração no Peter Pan:</strong></dt>
+                 <dd>A clássica roupa verde de Link, suas orelhas pontudas e até mesmo sua companheira fada foram fortemente inspiradas no visual clássico do Peter Pan.</dd>
+            <dt><strong>Inspiração na vida real:</strong></dt>
+                <dd>A ideia de explorar cavernas e florestas veio da infância de Shigeru Miyamoto, que costumava explorar a natureza ao redor de sua casa em Kyoto, no Japão.</dd>
+        </dl>
+        <br>
         <h2>Meus jogos Preferidos</h2>
-        <table>
+        <table><!--Tabela-->
             <tr>
                 <th>Jogo</th>
                 <th>Ano</th>
@@ -65,6 +69,20 @@
                 <td>Purah</td>
             </tr>
         </table>
+        <form>
+
+            <h2>Deixe seu comentario</h2>
+             <fieldset>
+                <label for="nome_usuario">Nome:</label>
+                <input type="text"
+                id="nome_usuario" />
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario"></textarea>
+             </fieldset>
+             <fieldset>
+               <button type="submit">Enviar Comentário</button>
+             </fieldset>
+        </form>
 
     </body>
 
