@@ -72,16 +72,28 @@
         <form>
 
             <h2>Deixe seu comentario</h2>
+
+            <fieldset>
+                <label for="e-mail">E-Mail: </label>
+                <input type="email" id="e-mail" required>
+            </fieldset>
+            <br>
+
              <fieldset>
-                <label for="nome_usuario">Nome:</label>
+                <legend>Comentários</legend>
+                <label for="nome_usuario">Nome: </label>
                 <input type="text"
-                id="nome_usuario" />
-                <label for="comentario">Comentário:</label>
+                id="nome_usuario" required>
+             </fieldset>
+            <br>
+
+             <fieldset>
+                <label for="comentario">Comentário: </label>
                 <textarea id="comentario"></textarea>
              </fieldset>
-             <fieldset>
+             <br>
+
                <button type="submit">Enviar Comentário</button>
-             </fieldset>
         </form>
 
     </body>
