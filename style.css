@@ -2,6 +2,7 @@ body {
     background-image: url("Hyrule_Central.png");
     background-size: cover;
     background-attachment: fixed;
+    font-family: "Fondamento", cursive;
 }
 .secao {
     background-color: rgba(0, 0, 0, 0.7);
@@ -10,4 +11,12 @@ body {
     margin: 20px;
     border-radius: 15px;
 
+}
+table, th, td {
+    border: 1px solid #FF0000;
+    border-collapse: collapse;
+    color: #aa9898;
+}
+td, th {
+    padding: 6px;
 }
