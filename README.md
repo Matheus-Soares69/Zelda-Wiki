@@ -24,16 +24,18 @@ Foi desenvolvido como prática de:
 
 ## 📚 Aprendizados
 
-Durante esse projeto pratiquei:
+Durante o projeto pratiquei:
 - Estruturação de páginas HTML
 - Uso de tags semânticas
 - Organização de conteúdo textual
 - Criação de listas
+- Criação de tabela
+- Criação de formulário
 
 ## 🔧 Como executar
 
 1. Baixe ou clone o repositório
-2. Abra o arquivo `zelda_wiki.html`
+2. Abra o arquivo `index.html`
 3. Ou utilize a extensão Live Server no VS Code
 
 ## 👤 Autor
