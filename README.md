@@ -12,6 +12,7 @@ Foi desenvolvido como prática de:
 - Listas
 - Organização de conteúdo
 - Desenvolvimento web básico
+- CSS Básico
 
 ## 🎮 Jogos citados
 
@@ -21,6 +22,7 @@ Foi desenvolvido como prática de:
 ## 🚀 Tecnologias usadas
 
 - HTML5
+- CSS3
 
 ## 📚 Aprendizados
 
@@ -31,6 +33,7 @@ Durante o projeto pratiquei:
 - Criação de listas
 - Criação de tabela
 - Criação de formulário
+
 
 ## 🔧 Como executar
 
